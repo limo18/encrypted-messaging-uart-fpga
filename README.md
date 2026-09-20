@@ -33,7 +33,7 @@ The destination and source addresses are sent both in clear and inside the encry
 - `dibuja_rgb_xx.vhd` — draws a predefined figure on the 8x8 WS2812 matrix, static or animated (shifting).
 - `ws2812_controller.vhd` — low-level driver generating the WS2812 serial timing for the LED matrix.
 - `present/` — PRESENT block cipher core (see [Credits](#credits)).
-- `uart.vhd` — UART transmitter/receiver core.
+- `uart_limon.vhd` — UART transmitter/receiver core.
 - Testbenches for each design, plus a combined testbench connecting transmitter and receiver (`emisor_receptor_cifr_rgb_tb`).
 
 ## How to simulate
