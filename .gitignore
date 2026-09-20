@@ -1,0 +1,24 @@
+# Vivado project files
+*.jou
+*.log
+*.str
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/**/incremental_db/
+*.gen/
+*.data/
+*.xsa
+.Xil/
+vivado*.jou
+vivado*.log
+webtalk*.log
+webtalk*.jou
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
